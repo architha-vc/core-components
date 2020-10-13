@@ -1,0 +1,36 @@
+.cmp-tabs {}
+
+.cmp-tabs__tab {}
+
+.cmp-tabs__tabpanel {}
+.cmp-tabs__tabpanel--active {}
+
+.cmp-tabs__tablist {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+.cmp-tabs .cmp-tabs__tab--active {
+    border: none;
+    background-color: #ff9537;
+    color: #000;
+}
+.cmp-tabs .cmp-tabs__tab {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    max-height: 3pc;
+    min-width: 3pc;
+}
+.cmp-tabs__tab {
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.cmp-tabs__tabpanel{
+  padding-top: 20px;
+}
+

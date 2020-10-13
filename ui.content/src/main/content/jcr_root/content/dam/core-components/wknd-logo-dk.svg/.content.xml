@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8ce8f01a-e7ad-42fe-b66a-0c033040c96e">
+    <jcr:content
+        cq:lastModified="{Date}2020-09-30T11:08:56.739+05:30"
+        cq:lastModifiedBy="admin"
+        dam:assetState="processed"
+        dam:relativePath="maxbupa-portal/wknd-logo-dk.svg"
+        jcr:lastModified="{Date}2020-09-25T23:13:39.251+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:extracted="{Date}2020-09-25T23:13:38.548+05:30"
+            dam:sha1="f5a0e06b4b09110093335f74034a18a3ccdc1402"
+            dam:size="{Long}1360"
+            dc:format="image/svg+xml"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

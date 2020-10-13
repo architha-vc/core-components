@@ -1,0 +1,10 @@
+
+//== Container main content style, used on page template
+
+main.container {
+    /*padding: .5em 1em;*/
+    @media (max-width: 767px){
+     margin-left: 13px;
+     margin-right: 13px;
+    }
+}

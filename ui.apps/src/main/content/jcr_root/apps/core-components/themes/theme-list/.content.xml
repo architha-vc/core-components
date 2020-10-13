@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:designPath="/etc/designs/acs-commons"
+            cq:lastModified="{Date}2014-05-14T20:51:21.861-04:00"
+            cq:lastModifiedBy="admin"
+            cq:template="/apps/acs-commons/templates/utilities/genericlist"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="Design Themes"
+            sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys">
+            <item_1
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="WKND Theme"
+                    sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                    value="wknd.site"/>
+            <item_2
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Green Theme"
+                    sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                    value="green.theme"/>
+            <item_3
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Black and White Theme"
+                    sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                    value="wbk.theme"/>
+        </list>
+    </jcr:content>
+</jcr:root>

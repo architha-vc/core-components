@@ -1,0 +1,40 @@
+.cmp-carousel {}
+.cmp-carousel__content {}
+.cmp-carousel__item {}
+.cmp-carousel__actions {
+    float: right;
+}
+.cmp-carousel__action {
+    padding: 3px 11px;
+    border: 1px solid orange;
+}
+.cmp-carousel__action--disabled {}
+.cmp-carousel__action--previous {
+    .cmp-carousel__action-icon {
+        transform: rotate(135deg);
+    }
+}
+.cmp-carousel__action--next {
+    .cmp-carousel__action-icon {
+        transform: rotate(-45deg);
+    }
+}
+.cmp-carousel__action--pause {
+    display: none;
+}
+.cmp-carousel__action--play {
+    display: none;
+}
+.cmp-carousel__action-icon {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.cmp-carousel__action-text {
+     display: none;
+}
+.cmp-carousel__indicators {
+    margin-top: 15px;
+}
+.cmp-carousel__indicator {}

@@ -1,0 +1,63 @@
+/*Accordion Default project specific styles start*/
+.cmp-accordion {
+    .cmp-accordion__item {
+        margin-bottom: 25px;
+        &:only-child {
+            margin-bottom: 0px;
+        }
+
+    }
+    .brkup-block {
+        padding: 10px 15px 10px;
+        border-bottom: 1px solid #eaeaea;
+    }
+    [data-cmp-expanded] > .cmp-accordion__header{
+     background-color: #ff9537;
+    }
+}
+
+.cmp-accordion__title {
+    font-family: "Montserrat-SemiBold";
+    font-size: 0.75rem;
+    color: #000;
+    text-transform: uppercase;
+}
+.cmp-accordion__header {
+    padding: 0px 20px;
+    background-color: #e4e5e5;
+    display: flex;
+    align-items: center;
+    min-height: 51px;
+}
+.cmp-accordion__panel {
+    box-shadow: 0 0 15px 0 rgba(163, 163, 163, 0.37);
+    background-color: #ffffff;
+    padding: 20px;
+}
+.cmp-accordion__icon {
+    float: right;
+}
+.cmp-accordion__icon:before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    vertical-align: top;
+    width: 0.45em;
+    top: 0;
+    transform: rotate(135deg);
+}
+.cmp-accordion__button--expanded .cmp-accordion__icon:before {
+    top: 0.15em;
+    transform: rotate(-45deg);
+}
+.cmp-accordion__button{
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
+.cmp-accordion__panel--expanded {}
+.cmp-accordion__panel--hidden {}

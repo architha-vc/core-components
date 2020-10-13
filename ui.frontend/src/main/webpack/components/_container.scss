@@ -1,0 +1,15 @@
+.cmp-container {}
+.cmp-container-padding{
+ .cmp-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+ }
+}
+
+@media (max-width: 767px){
+    .container.top-padding-25{
+        margin-left:15px;
+        margin-right:15px;
+        width:100%
+    }
+ }

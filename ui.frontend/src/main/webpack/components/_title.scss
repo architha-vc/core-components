@@ -1,0 +1,13 @@
+.cmp-title {}
+.cmp-title__text {}
+.cmp-title__link {}
+.cmp-title--underline .cmp-title .cmp-title__text:after {
+    display: block;
+    width: 84px;
+    padding-top: 8px;
+    content: "";
+    border-bottom: 2px solid #ff9537;
+}
+h2{
+    font-size:36px;
+}

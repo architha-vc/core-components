@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-09-30T10:53:13.860+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/core-components/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="core-components/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2020-09-29T14:32:50.610+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core-components/components/container"
+            backgroundColor="#000"
+            layout="responsiveGrid">
+            <image
+                jcr:created="{Date}2020-09-29T14:29:54.360+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-09-29T14:32:33.736+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core-components/components/image"
+                altValueFromDAM="true"
+                displayPopupTitle="true"
+                fileReference="/content/dam/core-components/wknd-logo-light.svg"
+                isDecorative="false"
+                titleValueFromDAM="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="1"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="3"/>
+                </cq:responsive>
+            </image>
+            <text
+                jcr:lastModified="{Date}2020-09-29T14:33:37.642+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core-components/components/text"
+                text="&lt;p>Copyright 2020, Core Components.&amp;nbsp;All rights reserved.&lt;/p>&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="4"
+                        width="4"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="7"/>
+                </cq:responsive>
+            </text>
+        </root>
+    </jcr:content>
+</jcr:root>

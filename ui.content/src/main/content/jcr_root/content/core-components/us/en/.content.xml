@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-09-30T12:35:39.040+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/core-components/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        sling:resourceType="core-components/components/page"
+        pageTitle="Core Components"
+        themeClientLib="wbk.theme">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core-components/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core-components/components/container">
+                <container
+                    jcr:lastModified="{Date}2020-09-30T10:24:54.167+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core-components/components/container"
+                    layout="responsiveGrid">
+                    <carousel
+                        jcr:created="{Date}2020-09-29T23:21:35.026+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-09-30T09:58:47.031+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core-components/components/carousel"
+                        autopauseDisabled="false"
+                        autoplay="true"
+                        delay="2900">
+                        <item_1601401911528
+                            cq:panelTitle="slide 1"
+                            cq:styleIds="[1601377468595]"
+                            jcr:description="&lt;p>Join us on one of our next adventures. Browse our list of curated experiences and sign up for one when you're ready to explore with us.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-29T23:24:41.536+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Adventures"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/northern-lights.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten"
+                                    text="Arctic Surfing In Lofoten"/>
+                            </actions>
+                        </item_1601401911528>
+                        <item_1601401936367
+                            cq:panelTitle="slide 2"
+                            cq:styleIds="[1601377468595]"
+                            jcr:description="&lt;p>From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-30T09:59:56.144+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="San Diego Surf Spots"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/we-retail/language-masters/en/experience/fly-fishing-the-amazon"
+                                    text="Fly-fishing the Amazon"/>
+                            </actions>
+                        </item_1601401936367>
+                    </carousel>
+                    <container
+                        cq:styleIds="[1601380248210]"
+                        jcr:created="{Date}2020-09-30T10:00:13.990+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-09-30T10:24:46.429+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core-components/components/container"
+                        layout="responsiveGrid">
+                        <teaser
+                            cq:styleIds="[1601377687957,1601377449748]"
+                            jcr:created="{Date}2020-09-30T10:19:27.582+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>A vibrant red, dusty highway stretches out before us into what seems like infinity, at the far reach of our sights it distorts and shimmers from the afternoon heat, fading into the blue of the horizon.&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-30T10:20:54.655+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Camping in Western Australia"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="true"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/wester-australia-by-camper-van/camping-in-western-australia.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <actions jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    link="/content/we-retail/language-masters/en/experience/wester-australia-by-camper-van"
+                                    text="Camping in Western Australia"/>
+                            </actions>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </teaser>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="2"
+                                width="8"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                        <title
+                            cq:styleIds="[1601380756065]"
+                            jcr:created="{Date}2020-09-30T10:25:26.974+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T10:25:36.219+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Our Top Stories"
+                            sling:resourceType="core-components/components/title"
+                            type="h2">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </title>
+                        <teaser_1395237236
+                            cq:styleIds="[1601377495580]"
+                            jcr:created="{Date}2020-09-30T10:25:53.056+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>BREAKING DOWN THE TOP SKATE....&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-30T10:27:20.008+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="ULTIMATE GUIDE TO LA SKATEPARKS"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/skitouring/skitouring-1.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </teaser_1395237236>
+                        <teaser_1395237236_co
+                            cq:styleIds="[1601377495580]"
+                            jcr:created="{Date}2020-09-30T10:25:53.056+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>BREAKING DOWN THE TOP SKATE....&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-30T10:28:17.487+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="ULTIMATE GUIDE TO LA SKATEPARKS"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-ready-to-go.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </teaser_1395237236_co>
+                        <teaser_1395237236_co_223568472
+                            cq:styleIds="[1601377495580]"
+                            jcr:created="{Date}2020-09-30T10:25:53.056+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>BREAKING DOWN THE TOP SKATE....&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-30T10:28:23.904+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="ULTIMATE GUIDE TO LA SKATEPARKS"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/camp-tent.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </teaser_1395237236_co_223568472>
+                        <teaser_1395237236_co_686254202
+                            cq:styleIds="[1601377495580]"
+                            jcr:created="{Date}2020-09-30T10:25:53.056+05:30"
+                            jcr:createdBy="admin"
+                            jcr:description="&lt;p>BREAKING DOWN THE TOP SKATE....&lt;/p>&#xd;&#xa;"
+                            jcr:lastModified="{Date}2020-09-30T10:28:30.774+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="ULTIMATE GUIDE TO LA SKATEPARKS"
+                            sling:resourceType="core-components/components/teaser"
+                            actionsEnabled="false"
+                            descriptionFromPage="false"
+                            fileReference="/content/dam/we-retail/en/experiences/steelhead-and-spines-in-alaska/steelhead-and-spines-in-alaska-1.jpg"
+                            textIsRich="true"
+                            titleFromPage="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </teaser_1395237236_co_686254202>
+                        <button
+                            cq:styleIds="[1601379052612]"
+                            jcr:created="{Date}2020-09-30T10:29:06.133+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T10:29:23.429+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="VIEW ALL"
+                            sling:resourceType="core-components/components/button"
+                            link="/content/we-retail/language-masters/en/experience">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </button>
+                        <separator_1266957658
+                            jcr:created="{Date}2020-09-30T11:50:01.417+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T11:50:01.417+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core-components/components/separator"/>
+                        <tabs
+                            jcr:created="{Date}2020-09-30T10:30:01.625+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T10:30:21.522+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core-components/components/tabs">
+                            <item_1
+                                cq:panelTitle="Overview"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tab 1"
+                                sling:resourceType="core-components/components/container"
+                                layout="responsiveGrid">
+                                <title
+                                    jcr:created="{Date}2020-09-30T10:30:31.372+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:30:55.113+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter."
+                                    sling:resourceType="core-components/components/title"
+                                    type="h2"/>
+                                <image
+                                    jcr:created="{Date}2020-09-30T10:31:05.274+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:31:16.031+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    altValueFromDAM="true"
+                                    displayPopupTitle="true"
+                                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/camp-fire.jpg"
+                                    isDecorative="false"
+                                    titleValueFromDAM="true"/>
+                                <text
+                                    jcr:created="{Date}2020-09-30T10:31:23.430+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:31:39.973+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/text"
+                                    text="&lt;p>The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation.&amp;nbsp; Jackson Hole is unlike anywhere else in the US.&amp;nbsp; A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.&amp;nbsp; With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_1>
+                            <item_2
+                                cq:panelTitle="Itinerary"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Tab 2"
+                                sling:resourceType="core-components/components/container"
+                                layout="responsiveGrid">
+                                <title
+                                    jcr:created="{Date}2020-09-30T10:32:07.379+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:32:29.476+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title=" Wyoming in the winter."
+                                    sling:resourceType="core-components/components/title"
+                                    type="h2"/>
+                                <image
+                                    jcr:created="{Date}2020-09-30T10:32:59.730+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T12:35:39.031+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/apparel/coats/Slopeside.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image>
+                                <image_copy
+                                    jcr:created="{Date}2020-09-30T10:32:59.730+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T12:35:31.849+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/apparel/coats/El Gordo Green.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_copy>
+                                <image_copy_1765781163
+                                    jcr:created="{Date}2020-09-30T10:32:59.730+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:33:36.247+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/apparel/coats/El Gordo Purple.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_copy_1765781163>
+                                <text
+                                    jcr:created="{Date}2020-09-30T10:33:56.015+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:33:59.983+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/text"
+                                    text="&lt;p>The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation.&amp;nbsp; Jackson Hole is unlike anywhere else in the US.&amp;nbsp; A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.&amp;nbsp; With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.&lt;/p>&#xd;&#xa;"
+                                    textIsRich="true"/>
+                            </item_2>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </tabs>
+                        <separator
+                            jcr:created="{Date}2020-09-30T10:34:10.466+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T10:34:10.466+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core-components/components/separator">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </separator>
+                        <accordion
+                            jcr:created="{Date}2020-09-30T10:34:20.816+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T10:34:57.831+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core-components/components/accordion"
+                            singleExpansion="false">
+                            <item_2
+                                cq:panelTitle="Bags"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 2"
+                                sling:resourceType="core-components/components/container"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:created="{Date}2020-09-30T10:35:06.418+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:35:41.126+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/activities/hiking/backpack/Backpack_B.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image>
+                                <image_copy
+                                    jcr:created="{Date}2020-09-30T10:35:06.418+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:35:49.973+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 9.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_copy>
+                                <image_copy_2083780005
+                                    jcr:created="{Date}2020-09-30T10:35:06.418+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:35:58.026+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/activities/hiking/backpack/Frame 2.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_copy_2083780005>
+                            </item_2>
+                            <item_1
+                                cq:panelTitle="Shoes"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Item 1"
+                                sling:resourceType="core-components/components/container"
+                                layout="responsiveGrid">
+                                <image
+                                    jcr:created="{Date}2020-09-30T10:36:08.427+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:36:24.727+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/apparel/footwear/84391210.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image>
+                                <image_copy
+                                    jcr:created="{Date}2020-09-30T10:36:08.427+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:36:46.429+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/apparel/footwear/source/Fleet Shoe Bottom.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_copy>
+                                <image_copy_1016853608
+                                    jcr:created="{Date}2020-09-30T10:36:08.427+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2020-09-30T10:36:41.387+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="core-components/components/image"
+                                    fileReference="/content/dam/we-retail/en/products/apparel/footwear/source/Fleet Shoe.jpg">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            width="4"/>
+                                    </cq:responsive>
+                                </image_copy_1016853608>
+                            </item_1>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </accordion>
+                        <image_751614583
+                            jcr:created="{Date}2020-09-30T10:37:35.619+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-09-30T10:38:00.167+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core-components/components/image"
+                            fileReference="/content/dam/we-retail/en/products/activities/surfing/source/Bear Bottom Side.jpg">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    width="12"/>
+                            </cq:responsive>
+                        </image_751614583>
+                    </container>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <adventures/>
+    <faqs/>
+    <about-us/>
+</jcr:root>

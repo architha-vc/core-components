@@ -1,0 +1,36 @@
+//.cmp-button__icon--myIcon {}
+.btn-left-align {
+  margin-right: auto !important;
+}
+
+.btn-right-align {
+  margin-left: auto !important;
+}
+
+.btn-align-left-side{
+    text-align: left;
+}
+
+.btn-align-right-side{
+    text-align: right;
+}
+
+.btn-align-center-align {
+  text-align: center;
+}
+/*Button Default project specific styles end*/
+
+.cmp-button--primary .cmp-button {
+    text-transform: uppercase;
+    color: #202020;
+    font-size: 14px;
+    background-color: #ff9537;
+    font-weight: 600;
+    float: left;
+    height: 3pc;
+    min-width: 3pc;
+}
+.cmp-button--primary .cmp-button .cmp-button__text {
+    padding: 1rem 2rem;
+    float: left;
+}
